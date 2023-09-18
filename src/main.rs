@@ -51,7 +51,7 @@ fn setup(
         Orbit {
             mass: 7.34767309 * (10.0_f32.powf(16.0)),
             acceleration: Vec3::ZERO,
-            velocity: Vec3::ZERO
+            velocity: Vec3 { x: 100.0, y: 0.0, z: 0.0 }
         }
     ));
 
